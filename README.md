@@ -1,123 +1,105 @@
-# Hotel Booking Analysis \| Microsoft Excel
+# 🏨 Hotel Booking Analysis | Microsoft Excel
 
-## Project Overview
+## 📌 Project Overview
+This project focuses on analyzing hotel booking data using Microsoft Excel. The objective is to understand booking trends, customer categories, hotel preferences, and booking cancellation patterns through data analysis and Pivot Tables.
 
-This beginner-level data analytics project explores hotel booking
-records using Microsoft Excel. It uses booking data, Pivot Tables, and
-summary metrics to examine hotel types, guest categories, monthly
-booking patterns, and cancellations.
+The project uses hotel booking records to identify useful insights that can help understand customer behaviour and hotel booking performance.
 
-The workbook contains three sheets: - `hotel_bookings` -- booking-level
-dataset - `Pivot` -- summary tables used for analysis - `Dashboard` --
-dashboard worksheet
+## 🎯 Project Objectives
+- Analyze total hotel bookings.
+- Compare City Hotel and Resort Hotel bookings.
+- Identify booking cancellation patterns.
+- Understand guest categories such as Couples, Families, and Singles.
+- Analyze monthly booking and cancellation trends.
+- Summarize key findings using Pivot Tables and visualizations.
 
-## Objectives
+## 📊 Dataset Information
+The dataset contains **119,390 booking records** and 22 columns.
 
--   Compare bookings for City Hotels and Resort Hotels.
--   Examine cancelled bookings and cancellation rates.
--   Compare booking and cancellation counts across guest categories.
--   Explore monthly booking and cancellation patterns.
--   Summarize the results using Excel Pivot Tables.
+Some important attributes include:
+- Hotel Type
+- Booking Cancellation Status
+- Arrival Year and Month
+- Number of Adults, Children, and Babies
+- Country
+- Reserved and Assigned Room Type
+- Deposit Type
+- Customer Type
+- Average Daily Rate (ADR)
+- Special Requests
+- Reservation Status
+- Guest Type
 
-## Dataset
+## 🛠️ Tools & Technologies
+- Microsoft Excel
+- Pivot Tables
+- Data Analysis
+- Data Visualization
+- Excel Charts
 
-The dataset contains **119,390 records** and **22 columns**.
+## 🔍 Analysis Performed
 
-Important fields include: - `hotel` -- hotel type - `is_canceled` --
-cancellation indicator - `arrival_date_year` and `arrival_date_month` --
-arrival period - `adults`, `children`, and `babies` -- guest counts -
-`country` -- guest country - `reserved_room_type` and
-`assigned_room_type` -- room types - `deposit_type` -- deposit
-category - `customer_type` -- customer category
+1. **Hotel Booking Analysis:** Compared bookings across City Hotels and Resort Hotels.
+2. **Guest Category Analysis:** Analyzed Couples, Families, and Singles.
+3. **Cancellation Analysis:** Examined cancelled bookings across different guest categories.
+4. **Monthly Trend Analysis:** Compared monthly booking and cancellation patterns.
+5. **Room Status Analysis:** Explored desired and undesired room status categories.
 
-The CSV version of the dataset is stored in the `Dataset/` folder. The
-Excel workbook contains the dataset and the Pivot Table summaries.
+## 📈 Key Findings
 
-## Tools Used
+Based on the workbook:
 
--   Microsoft Excel
--   Pivot Tables
--   Basic data analysis
--   Data summarization
+| Metric | Result |
+|---|---:|
+| Total Bookings | 119,390 |
+| Cancelled Bookings | 44,224 |
+| Cancellation Rate | 37.04% |
+| City Hotel Bookings | 79,330 |
+| Resort Hotel Bookings | 40,060 |
 
-## Analysis and Findings
+### Guest Category Insights
 
-The Pivot Table summaries in the workbook show:
+| Guest Category | Total Bookings | Cancelled |
+|---|---:|---:|
+| Couples | 81,560 | 32,424 |
+| Families | 15,253 | 5,245 |
+| Singles | 22,577 | 6,555 |
 
-### Hotel type
+**Observations:**
+- City Hotels account for more bookings than Resort Hotels.
+- Couples represent the largest guest category.
+- August has the highest monthly booking count in the Pivot Table summary.
+- Cancellation patterns vary across guest categories and hotel types.
 
-  Hotel Type       Total Bookings   Cancelled Bookings
-  -------------- ---------------- --------------------
-  City Hotel               79,330               33,102
-  Resort Hotel             40,060               11,122
-  **Total**           **119,390**           **44,224**
+## 📁 Project Structure
 
-### Guest category
-
-  Guest Category     Total Bookings   Cancelled Bookings
-  ---------------- ---------------- --------------------
-  Couples                    81,560               32,424
-  Family                     15,253                5,245
-  Single                     22,577                6,555
-
-### Key observations
-
--   City Hotels account for more bookings than Resort Hotels in this
-    dataset.
--   Couples are the largest guest category in the Pivot Table summary.
--   The workbook also includes monthly booking and cancellation
-    summaries.
--   Cancellation counts can be compared across hotel types and guest
-    categories.
-
-*Note: These figures are reproduced from the workbook's Pivot Table
-summaries.*
-
-## Repository Structure
-
-``` text
+```text
 Hotel-Booking-Analysis/
 │
-├── Dataset/
-│   └── hotel_bookings.csv
-│
 ├── Project Hotel_Booking.xlsx
-│
-├── Screenshots/
-│   └── hotel-dashboard.png
-│
 └── README.md
 ```
 
-If you have not added a dashboard screenshot yet, you can leave the
-`Screenshots/` folder out until one is available.
+## 💡 Learning Outcomes
+- Learned to organize and analyze data in Excel.
+- Practiced creating and working with Pivot Tables.
+- Improved understanding of booking and cancellation metrics.
+- Learned to interpret trends and patterns from datasets.
+- Developed foundational data analysis skills.
 
-## How to Explore the Project
+## 🚀 Future Improvements
+- Create an interactive Excel dashboard with slicers.
+- Add more visualizations for booking and cancellation trends.
+- Perform deeper analysis of customer behaviour.
+- Explore the dataset using Python, Pandas, and Matplotlib.
 
-1.  Download or open `Project Hotel_Booking.xlsx`.
-2.  Open the `hotel_bookings` sheet to view the booking records.
-3.  Open the `Pivot` sheet to explore the summary tables.
-4.  Use the CSV file in `Dataset/` if you want to work with the raw data
-    in another analysis tool.
+## 👩‍💻 Author
+**Arpita Kamboj**
 
-## Skills Practiced
+Computer Science Engineering Student | Aspiring Data Analyst
 
--   Working with structured datasets in Excel
--   Creating and interpreting Pivot Tables
--   Summarizing booking and cancellation data
--   Comparing categories and identifying patterns
--   Communicating findings from data
+[GitHub](https://github.com/arpita7819)
 
-## Future Improvements
+---
 
--   Complete and refine an interactive Excel dashboard.
--   Add charts and slicers for interactive filtering.
--   Explore the dataset using Python and Pandas.
--   Add further analysis of booking trends and customer behaviour.
-
-## Author
-
-**Arpita Kamboj**\
-Computer Science Engineering Student \| Aspiring Data Analyst
-
-[GitHub Profile](https://github.com/arpita7819)
+⭐ If you find this project interesting, feel free to explore the repository!
