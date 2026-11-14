@@ -71,6 +71,11 @@ Based on the workbook:
 - August has the highest monthly booking count in the Pivot Table summary.
 - Cancellation patterns vary across guest categories and hotel types.
 
+## 📸 Dashboard Preview
+
+![Hotel Booking Dashboard](Screenshots/hotel-dashboard.png)
+
+
 ## 📁 Project Structure
 
 ```text
