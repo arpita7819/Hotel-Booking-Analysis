@@ -77,13 +77,17 @@ Based on the workbook:
 
 
 ## 📁 Project Structure
-
-```text
 Hotel-Booking-Analysis/
 │
+├── Dataset/
+│   └── hotel_bookings.csv
+│
+├── Screenshots/
+│   └── hotel-dashboard.png
+│
 ├── Project Hotel_Booking.xlsx
+│
 └── README.md
-```
 
 ## 💡 Learning Outcomes
 - Learned to organize and analyze data in Excel.
