@@ -76,7 +76,10 @@ Based on the workbook:
 <a href="https://github.com/arpita7819/Hotel-Booking-Analysis/blob/main/Screenshots/Screenshot%202026-11-14%20191108.png">Dashboard</a>
 
 
+
 ## 📁 Project Structure
+
+```text
 Hotel-Booking-Analysis/
 │
 ├── Dataset/
@@ -88,6 +91,8 @@ Hotel-Booking-Analysis/
 ├── Project Hotel_Booking.xlsx
 │
 └── README.md
+```
+
 
 ## 💡 Learning Outcomes
 - Learned to organize and analyze data in Excel.
