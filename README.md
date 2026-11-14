@@ -73,7 +73,7 @@ Based on the workbook:
 
 ## 📸 Dashboard Preview
 
-![Hotel Booking Dashboard](Screenshots/hotel-dashboard.png)
+<a href="https://github.com/arpita7819/Hotel-Booking-Analysis/blob/main/Screenshots/Screenshot%202026-11-14%20191108.png">Dashboard</a>
 
 
 ## 📁 Project Structure
