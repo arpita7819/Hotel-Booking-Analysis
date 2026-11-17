@@ -107,7 +107,7 @@ Hotel-Booking-Analysis/
 - Perform deeper analysis of customer behaviour.
 - Explore the dataset using Python, Pandas, and Matplotlib.
 
-## 👩‍💻 Author
+## 👩‍💻 Author   
 **Arpita Kamboj**
 
 Computer Science Engineering Student | Aspiring Data Analyst
